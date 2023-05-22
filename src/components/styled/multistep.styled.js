@@ -67,7 +67,7 @@ export const Styledmultistep = styled(Hstackflexi)`
         padding: 0 60px;
     }
     @media screen and (max-width:1025px) {
-        width: 900px;
+        width: 800px;
     }
     @media screen and (max-width:600px) {
         width: 100%;
@@ -103,7 +103,7 @@ export const Sidebar = styled(Vstackflexi)`
     background-repeat: no-repeat;
     background-size: cover;
     @media screen and (max-width:1025px) {
-        width:100%;
+        width:300px;
     }
     @media screen and (max-width:600px) {
         width:100%;

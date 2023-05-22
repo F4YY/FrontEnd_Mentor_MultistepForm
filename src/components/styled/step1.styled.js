@@ -18,7 +18,7 @@ export const PersonalForm = styled.form`
         margin: 0 0 0 85px;
     }
     @media screen and (max-width:1025px) {
-        width: 80%;
+        width: 500px;
     }
     @media screen and (max-width:600px) {
         width: 92%;
