@@ -67,7 +67,7 @@ export const Styledmultistep = styled(Hstackflexi)`
         padding: 0 60px;
     }
     @media screen and (max-width:1025px) {
-        width: 100%;
+        width: auto;
     }
     @media screen and (max-width:600px) {
         width: 100%;
