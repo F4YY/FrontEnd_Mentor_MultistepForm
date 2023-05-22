@@ -68,7 +68,6 @@ export const Styledmultistep = styled(Hstackflexi)`
     }
     @media screen and (max-width:1025px) {
         width: 100%;
-        margin:0 20px;
     }
     @media screen and (max-width:600px) {
         width: 100%;
@@ -200,7 +199,7 @@ export const Firstnextstepbtn = styled(NextStepbtn)`
     @media screen and (max-width:600px) {
         width:44%;
         padding:0 10px;
-        margin: 0 -13% -120% 0;
+        margin: 0 -13% -125% 0;
     }
 `
 export const Confirmbtn = styled(NextStepbtn)`
