@@ -61,7 +61,7 @@ export const Container = styled.div`
         transition: all .5s ease-in-out;
     }
     @media screen and (max-width:1025px) {
-        width: auto;
+        width: 100%;
     }
     @media screen and (max-width:600px) {
         width: auto;

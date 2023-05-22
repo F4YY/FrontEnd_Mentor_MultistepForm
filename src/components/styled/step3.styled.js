@@ -6,6 +6,9 @@ export const PickAddons = styled(Vstack)`
     height: 460px;
     justify-content: flex-start;
     align-items: flex-start;
+    @media screen and (max-width:1025px) {
+        width: 100%;
+    }
     @media screen and (max-width:600px) {
         width: 92%;
         height: auto;
@@ -71,6 +74,13 @@ export const StyledAddons = styled(Hstack)`
     }
     &:active{
         border-color: var(--Purplish-blue);
+    }
+    @media screen and (max-width:1025px) {
+        width: 72%;
+        .spreader{
+            width: 100%;
+            margin: 0 0 0 12px;
+        }
     }
     @media screen and (max-width:600px) {
         width: 100%;

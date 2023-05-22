@@ -67,7 +67,7 @@ export const Styledmultistep = styled(Hstackflexi)`
         padding: 0 60px;
     }
     @media screen and (max-width:1025px) {
-        width: auto;
+        width: 95%;
     }
     @media screen and (max-width:600px) {
         width: 100%;
@@ -121,6 +121,9 @@ export const Sidebarsteps = styled(Hstack)`
     margin: 26px 0 0;
     &:last-child{
         display:none;
+    }
+    @media screen and (max-width:1025px) {
+        padding: 0 12px;
     }
     @media screen and (max-width:600px) {
         width: 20%;
