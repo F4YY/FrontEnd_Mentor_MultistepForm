@@ -19,6 +19,9 @@ export const StyledThankyou = styled(Vstack)`
         color: var(--Cool-gray);
         margin: 0 85px;
     }
+    @media screen and (max-width:1025px) {
+        width: 100%;
+    }
     @media screen and (max-width:600px) {
         width: 92%;
         height: auto;

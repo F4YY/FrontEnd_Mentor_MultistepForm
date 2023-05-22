@@ -68,3 +68,19 @@ export const Container = styled.div`
         align-items: flex-start;
     }
 `
+export const Body = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width:1025px) {
+        width: 100%;
+        margin: 0 20px;
+    }
+    @media screen and (max-width:600px) {
+        width: auto;
+        margin: 0;
+    }
+`

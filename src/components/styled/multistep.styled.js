@@ -103,8 +103,7 @@ export const Sidebar = styled(Vstackflexi)`
     background-repeat: no-repeat;
     background-size: cover;
     @media screen and (max-width:1025px) {
-        width: 320px;
-        margin: 0 0 0 20px;
+        width: 300px;
     }
     @media screen and (max-width:600px) {
         width:100%;
