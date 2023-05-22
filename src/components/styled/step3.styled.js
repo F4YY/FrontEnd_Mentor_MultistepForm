@@ -78,8 +78,6 @@ export const StyledAddons = styled(Hstack)`
         padding: 10px 12px;
         margin: 27px 0 0;
         input{
-            width: 24px;
-            height: 18px;
             padding: 10px;
         }
         .spreader{

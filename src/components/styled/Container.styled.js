@@ -60,6 +60,9 @@ export const Container = styled.div`
         background-color: var(--White);
         transition: all .5s ease-in-out;
     }
+    @media screen and (max-width:1025px) {
+        width: auto;
+    }
     @media screen and (max-width:600px) {
         width: auto;
         align-items: flex-start;
