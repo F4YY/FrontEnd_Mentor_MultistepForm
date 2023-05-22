@@ -67,7 +67,7 @@ export const Styledmultistep = styled(Hstackflexi)`
         padding: 0 60px;
     }
     @media screen and (max-width:1025px) {
-        width: 95%;
+        width: 100%;
     }
     @media screen and (max-width:600px) {
         width: 100%;
@@ -106,12 +106,12 @@ export const Sidebar = styled(Vstackflexi)`
         width:100%;
     }
     @media screen and (max-width:600px) {
-        width:100%;
+        width:112%;
         min-height: 170px;
         justify-content: center;
         border-radius: 0;
         padding:0 50px;
-        margin: 0 auto;
+        margin: 0 -20px 0;
         background-image: url(${bgheadermobile});
     }
 `
@@ -123,7 +123,7 @@ export const Sidebarsteps = styled(Hstack)`
         display:none;
     }
     @media screen and (max-width:1025px) {
-        padding: 0 12px;
+        padding: 0 20px;
     }
     @media screen and (max-width:600px) {
         width: 20%;
@@ -146,6 +146,14 @@ export const StepsInfo = styled(Vstack)`
         font-size: .95em;
         font-weight: var(--bold);
         color: var(--White);
+    }
+    @media screen and (max-width:1025px) {
+        .stepnumber{
+            font-size: .7em;
+        }
+        .stepdesc{
+            font-size: .8em;
+        }
     }
     @media screen and (max-width:600px) {
         display:none;
