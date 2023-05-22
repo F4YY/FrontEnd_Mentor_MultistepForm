@@ -67,7 +67,8 @@ export const Styledmultistep = styled(Hstackflexi)`
         padding: 0 60px;
     }
     @media screen and (max-width:1025px) {
-        width: auto;
+        width: 100%;
+        margin:0 20px;
     }
     @media screen and (max-width:600px) {
         width: 100%;
@@ -103,7 +104,7 @@ export const Sidebar = styled(Vstackflexi)`
     background-repeat: no-repeat;
     background-size: cover;
     @media screen and (max-width:1025px) {
-        width:auto;
+        width:100%;
     }
     @media screen and (max-width:600px) {
         width:100%;
@@ -199,7 +200,7 @@ export const Firstnextstepbtn = styled(NextStepbtn)`
     @media screen and (max-width:600px) {
         width:44%;
         padding:0 10px;
-        margin: 0 -13% -130% 0;
+        margin: 0 -13% -120% 0;
     }
 `
 export const Confirmbtn = styled(NextStepbtn)`
