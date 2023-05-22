@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "checked": true,
+        "title": "Online service",
+        "subtitle": "Access to multiplayer games",
+        "price_month": "+$1/mo",
+        "price_year": "+$10/yr"
+    },
+    {
+        "id": 2,
+        "checked": true,
+        "title": "Larger storage",
+        "subtitle": "Extra 1TB of cloud save",
+        "price_month": "+$2/mo",
+        "price_year": "+$20/yr"
+    },
+    {
+        "id": 3,
+        "checked": false,
+        "title": "Customizable profile",
+        "subtitle": "Custom theme on your profile",
+        "price_month": "+$2/mo",
+        "price_year": "+$20/yr"
+    }
+  ]

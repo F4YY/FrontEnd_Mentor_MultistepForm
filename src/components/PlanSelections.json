@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "icon":"./assets/images/icon-arcade.svg",
+        "plan": "Arcade",
+        "Monthly": "$9/mo",
+        "Yearly": "$90/yr",
+        "Bonus":"2 months free"
+    },
+    {
+        "id": 2,
+        "icon":"./assets/images/icon-advanced.svg",
+        "plan": "Advance",
+        "Monthly": "$12/mo",
+        "Yearly": "$120/yr",
+        "Bonus":"2 months free"
+    },
+    {
+        "id": 3,
+        "icon":"./assets/images/icon-pro.svg",
+        "plan": "Pro",
+        "Monthly": "$15/mo",
+        "Yearly": "$150/yr",
+        "Bonus":"2 months free"
+    }
+  ]
