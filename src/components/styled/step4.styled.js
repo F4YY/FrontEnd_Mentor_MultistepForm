@@ -27,6 +27,7 @@ export const StyledSummary = styled(Vstack)`
         margin: -70px 0;
         padding: 0 20px 20px;
         background-color: var(--White);
+        box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.1);
         .gap_break1{
             width: 100%;
             padding: 10px 0;

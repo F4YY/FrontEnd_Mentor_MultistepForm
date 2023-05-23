@@ -29,6 +29,7 @@ export const PersonalForm = styled.form`
         margin: -70px 0;
         padding: 0 20px;
         background-color: var(--White);
+        box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.1);
         label{
             margin: 25px 0 0 0;
         }

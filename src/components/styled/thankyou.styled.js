@@ -29,6 +29,7 @@ export const StyledThankyou = styled(Vstack)`
         padding: 50px 34px;
         margin: -70px 0 0;
         background-color: var(--White);
+        box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.1);
         h1{
             font-size: 1.5em;
             margin: 20px 0 10px;

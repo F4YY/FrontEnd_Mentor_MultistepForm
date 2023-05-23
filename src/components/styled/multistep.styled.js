@@ -76,6 +76,7 @@ export const Styledmultistep = styled(Hstackflexi)`
         flex-direction: column;
         justify-content: flex-start;
         background-color: var(--Magnolia);
+        box-shadow: none;
         padding: 0;
         .firstbtnSpreader{
             width: 100%;
@@ -86,7 +87,6 @@ export const Styledmultistep = styled(Hstackflexi)`
             width: 100%;
             height: auto;
             padding:20px;
-            background-color: var(--White);
         }
     }
 `
@@ -162,18 +162,18 @@ export const StepsInfo = styled(Vstack)`
 export const Step2Aligner = styled(Vstack)`
     @media screen and (max-width:600px) {
         width: 100%;
-        gap:125px;
+        gap:70px;
         margin-bottom: 20px;
     }
 `
 export const Step3Aligner = styled(Step2Aligner)`
     @media screen and (max-width:600px) {
-        gap: 235px;
+        gap: 70px;
     }
 `
 export const Step4Aligner = styled(Step2Aligner)`
     @media screen and (max-width:600px) {
-        gap: 235px;
+        gap: 70px;
     }
 `
 export const CircleNumber = styled.div`
@@ -210,7 +210,7 @@ export const Firstnextstepbtn = styled(NextStepbtn)`
     @media screen and (max-width:600px) {
         width:44%;
         padding:0 10px;
-        margin: 0 -13% -125% 0;
+        margin: 0 -13% -90px 0;
     }
 `
 export const Confirmbtn = styled(NextStepbtn)`
